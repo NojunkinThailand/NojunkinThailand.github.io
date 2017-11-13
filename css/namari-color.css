@@ -1,0 +1,831 @@
+/* Namari Landing Page Dynamic Style Index 
+
+1. Website Default Styling
+2. Navigation
+3. Primary and Secondary Colors
+4. Banner
+5. Typography
+6. Buttons
+7. Footer
+     
+  
+/*------------------------------------------------------------------------------------------*/
+/* 1. Website Default Styling */
+/*------------------------------------------------------------------------------------------*/
+
+
+body {
+    margin-left: -21px;
+    margin-top: -21px;
+    margin-right: -21px;
+}
+
+
+/* Default Link Color */
+
+a, .la-ball-triangle-path {
+    color:#79e26b;
+}
+
+a:hover, #header.nav-solid nav a:hover {
+    color:#a8b729;
+}
+
+/* Default Icon Color */
+
+.icon i {
+    color:#a8b729;
+    padding-bottom: 15px;
+}
+
+.icon1 i {
+    color:#a8b729;
+    padding-bottom: 15px;
+    margin-left: 165px;
+}
+
+/* Border Color */
+
+.pricing-block-content:hover {
+    border-color:#a8b729;
+}
+
+
+/*------------------------------------------------------------------------------------------*/
+/* 2. Navigation */
+/*------------------------------------------------------------------------------------------*/
+
+
+/* Transparent Navigation Color on a Banner */
+
+#header nav a, #header i {
+    color:white;
+}
+
+
+/* Navigation Colors when the Navigation is sticky and solid */ 
+
+#header.nav-solid, #header.nav-solid a, #header.nav-solid i, #nav-mobile ul li a {
+    color:#333;
+}
+
+li {
+    float: right;
+}
+
+/* Navigation Active State */
+
+#header.nav-solid .active {
+    color: #a8b729;
+    border-color: #a8b729;
+}    
+
+
+
+/*------------------------------------------------------------------------------------------*/
+/* 3. Primary and Secondary Colors */
+/*------------------------------------------------------------------------------------------*/
+
+
+/* Primary Background and Text Colors */
+
+.primary-color, .featured .pricing {
+    background-color:#a8b729;
+}
+
+.primary-color, .primary-color .section-title, .primary-color .section-subtitle, .featured .pricing, .featured .pricing p {
+    color:#fff;    
+}
+
+.text-center .section-heading h2 {
+    margin:30px auto 25px auto;
+}
+
+/* Primary Icon Colors */
+
+.primary-color .icon i, .primary-color i {
+    color:#fff;
+}
+
+
+/* Secondary Background and Text Colors */
+
+.secondary-color {
+    background-color:#f5f5f5;
+}
+
+
+/*------------------------------------------------------------------------------------------*/
+/* 4. Banner */
+/*------------------------------------------------------------------------------------------*/
+
+
+/* Banner Background and Text Colors */
+
+#banner {
+    /*background: url("../images/banner-images/banner-images-1.jpg") no-repeat center top;*/
+    background-size:cover;
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("../images/banner-images/banner-images-1.jpg");
+}
+
+
+/*------------------------------------------------------------------------------------------*/
+/* 5. Typography */
+/*------------------------------------------------------------------------------------------*/
+
+
+body {
+    font-family: 'Kanit', sans-serif;
+    font-size:15px;
+    font-weight:normal;
+    color:#111;
+}
+
+/* Logo, if you are using Fonts as Logo and not image
+
+#logo h1 {
+    font-family:;
+    font-size:; 
+    font-weight:;
+    color:;
+}
+
+#logo h2 {
+    font-family:;
+    font-size:; 
+    font-weight:;
+    color:;
+}
+
+*/
+
+/* Banner Typography */
+
+#banner h1 {
+    font-family: 'Kanit', sans-serif;
+    line-height: 1.2;
+    font-size: 2.5em;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+}
+#banner p {
+    font-family: 'Kanit', sans-serif;
+    line-height: 1.2;
+    font-size: 1.5em;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+    margin-top: -15px;
+}
+
+#banner h2 {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size:18px;
+    font-weight:300;
+    color:#111;
+}
+
+
+/* Section Title and Subtitle */
+
+.section-title {
+    font-family: 'Kanit', sans-serif;
+    font-size: 2.6em; 
+    font-weight:700;
+    color:#111;
+    text-align: center;
+}
+.tab-head {
+    font-family: 'Kanit', sans-serif;
+    font-size: 2.6em; 
+    font-weight:700;
+    color: white;
+    margin-left: 5px;
+    background-color: #a8b729;
+    text-align: center;
+    padding: 40px;
+}
+
+.section-subtitle {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size: 1.2em;
+    font-weight:300;
+    color:#111;
+}
+
+/* Testimonial */
+
+.testimonial q {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size: 17px; 
+    font-weight:300;
+}
+
+.testimonial.classic q, .testimonial.classic footer {
+    color:#111;
+}
+
+
+/* Standard Headings h1-h6 */
+
+h1 {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size: 40px; 
+    font-weight:300;
+    color:#111;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size: 34px; 
+    font-weight:300;
+    color:#111;
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size: 30px; 
+    font-weight:700;
+    color:#111;
+}
+
+h4 {
+    font-family: 'Kanit', sans-serif;
+    font-size: 2em; 
+    font-weight:400;
+    color:#111;
+    text-align: center;
+    
+}
+.ss {
+    margin-left: -24px;
+    font-size: 2em;
+}
+
+h5 {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size: 16px; 
+    font-weight:400;
+    color:#111;
+}
+
+h6 {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size: 14px; 
+    font-weight:400;
+    color:#111;
+}
+
+
+/*------------------------------------------------------------------------------------------*/
+/* 6. Buttons */
+/*------------------------------------------------------------------------------------------*/
+
+/* ----------Default Buttons---------- */
+
+
+/* Button Text */
+
+.button, input[type="submit"]  {
+    font-family: 'Kanit', sans-serif;
+    font-size:1em;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button1 {
+    background-image: url("../images/facebook.jpg");
+    width: 250px;
+    height: 65px;
+}
+
+.button1:hover {
+    background-image: url("../images/facebook-1.jpg");
+    width: 250px;
+    height: 65px;
+}
+
+
+/* Button Color */
+
+.button, input[type="submit"] {
+    border-color:#111;
+}
+
+
+/* Button Hover Color */
+
+.button:hover,  input[type="submit"]:hover {
+    border-color:#a8b729;
+    color:#a8b729;
+}
+
+
+/* ----------Banner Buttons---------- */
+
+
+/* Button Text */
+.animate
+{
+	transition: all 0.1s;
+	-webkit-transition: all 0.1s;
+}
+
+.action-button
+{
+	position: relative;
+	padding: 10px 40px;
+  	margin: 0px 10px 10px 0px;
+  	float: left;
+	border-radius: 10px;
+	font-family: 'Kanit', sans-serif;
+	font-size: 25px;
+	color: #FFF;
+	text-decoration: none;	
+}
+.action-button1
+{
+	position: relative;
+	padding: 10px 30px;
+  	margin: 0px 10px 10px 0px;
+  	float: left;
+	border-radius: 10px;
+	font-family: 'Kanit', sans-serif;
+	font-size: 20px;
+	color: #FFF;
+	text-decoration: none;	
+}
+
+.action-button1:active
+{
+	transform: translate(0px,5px);
+  	-webkit-transform: translate(0px,5px);
+	border-bottom: 1px solid;
+}
+
+.action-button1:hover
+{
+    transform: translate(0px,5px);
+    -webkit-transform: translate(0px,5px);
+    border-bottom: 1px solid;
+}
+.action-button:active
+{
+	transform: translate(0px,5px);
+  	-webkit-transform: translate(0px,5px);
+	border-bottom: 1px solid;
+}
+
+.action-button:hover
+{
+    transform: translate(0px,5px);
+    -webkit-transform: translate(0px,5px);
+    border-bottom: 1px solid;
+}
+
+.green1
+{
+	background-color: #82BF56;
+	border-bottom: 5px solid #669644;
+	text-shadow: 0px -2px #669644;
+	margin-left: 41%;
+}
+
+.green2
+{
+    background-color: #82BF56;
+	border-bottom: 5px solid #669644;
+	text-shadow: 0px -2px #669644;
+	margin-left: 245px;
+}
+
+/*------------------------------------------------------------------------------------------*/
+/* 7. Footer */
+/*------------------------------------------------------------------------------------------*/
+
+#landing-footer, #landing-footer p, #landing-footer a {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size:12px;
+    font-weight:normal;
+    color:#999;
+}
+
+/* Footer Icon Color */
+
+#landing-footer i {
+    color:#999;
+}
+
+
+@media screen and (max-width: 736px) {
+    
+body {
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+}
+
+/* Default Link Color */
+
+a, .la-ball-triangle-path {
+    color:#a8b729;
+}
+
+a:hover, #header.nav-solid nav a:hover {
+    color:#a8b729;
+}
+
+/* Default Icon Color */
+
+.icon i {
+    color:#a8b729;
+    padding-bottom: 15px;
+}
+
+/* Border Color */
+
+.pricing-block-content:hover {
+    border-color:#a8b729;
+}
+
+
+/*------------------------------------------------------------------------------------------*/
+/* 2. Navigation */
+/*------------------------------------------------------------------------------------------*/
+
+
+/* Transparent Navigation Color on a Banner */
+
+#header nav a, #header i {
+    color:#111;
+}
+
+
+/* Navigation Colors when the Navigation is sticky and solid */ 
+
+#header.nav-solid, #header.nav-solid a, #header.nav-solid i, #nav-mobile ul li a {
+    color:#333;
+}
+
+
+/* Navigation Active State */
+
+#header.nav-solid .active {
+    color: #a8b729;
+    border-color: #a8b729;
+}    
+
+
+
+/*------------------------------------------------------------------------------------------*/
+/* 3. Primary and Secondary Colors */
+/*------------------------------------------------------------------------------------------*/
+
+
+/* Primary Background and Text Colors */
+
+.primary-color, .featured .pricing {
+    background-color:#a8b729;
+}
+
+.primary-color, .primary-color .section-title, .primary-color .section-subtitle, .featured .pricing, .featured .pricing p {
+    color:#fff;    
+}
+
+.text-center .section-heading h2 {
+    margin:30px auto 25px auto;
+}
+
+/* Primary Icon Colors */
+
+.primary-color .icon i, .primary-color i {
+    color:#fff;
+}
+
+
+/* Secondary Background and Text Colors */
+
+.secondary-color {
+    background-color:#f5f5f5;
+}
+
+
+/*------------------------------------------------------------------------------------------*/
+/* 4. Banner */
+/*------------------------------------------------------------------------------------------*/
+
+
+/* Banner Background and Text Colors */
+
+#banner {
+    /*background: url("../images/banner-images/banner-images-1.jpg") no-repeat center top;*/
+    background-size:cover;
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("../images/banner-images/banner-images-1.jpg");
+}
+
+
+/*------------------------------------------------------------------------------------------*/
+/* 5. Typography */
+/*------------------------------------------------------------------------------------------*/
+
+
+body {
+    font-family: 'Kanit', sans-serif;
+    font-size:15px;
+    font-weight:normal;
+    color:#111;
+}
+
+/* Logo, if you are using Fonts as Logo and not image
+
+#logo h1 {
+    font-family:;
+    font-size:; 
+    font-weight:;
+    color:;
+}
+
+#logo h2 {
+    font-family:;
+    font-size:; 
+    font-weight:;
+    color:;
+}
+
+*/
+
+/* Banner Typography */
+#banner h1 {
+    font-family: 'Kanit', sans-serif;
+    line-height: 1.2;
+    font-size: 1.5em;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+}
+#banner p {
+    font-family: 'Kanit', sans-serif;
+    line-height: 1.2;
+    font-size: 1em;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+    margin-top: -15px;
+}
+
+#banner h2 {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size:18px;
+    font-weight:300;
+    color:#111;
+}
+
+
+/* Section Title and Subtitle */
+
+.section-title {
+    font-family: 'Kanit', sans-serif;
+    font-size: 2em; 
+    font-weight:700;
+    color:#111;
+    margin-left: 20px;
+}
+
+.section-subtitle {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size: 1.2em;
+    font-weight:300;
+    color:#111;
+    margin-left: 20px;
+}
+
+/* Testimonial */
+
+.testimonial q {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size: 17px; 
+    font-weight:300;
+}
+
+.testimonial.classic q, .testimonial.classic footer {
+    color:#111;
+}
+
+
+/* Standard Headings h1-h6 */
+
+h1 {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size: 40px; 
+    font-weight:300;
+    color:#111;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size: 34px; 
+    font-weight:300;
+    color:#111;
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size: 30px; 
+    font-weight:700;
+    color:#111;
+}
+
+h4 {
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.5em; 
+    font-weight:400;
+    color:#111;
+    text-align: center;
+
+}
+
+.nn {
+    text-align:left; 
+    color:#808080;   
+    margin-left: 2px; 
+    font-size: 1em;
+}
+
+.mm {
+    text-align:left; 
+    margin-top:20px;
+    margin-left: 3px;
+    font-size: 1.5em;
+}
+
+h5 {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size: 16px; 
+    font-weight:400;
+    color:#111;
+}
+
+h6 {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size: 14px; 
+    font-weight:400;
+    color:#111;
+}
+
+
+/*------------------------------------------------------------------------------------------*/
+/* 6. Buttons */
+/*------------------------------------------------------------------------------------------*/
+
+/* ----------Default Buttons---------- */
+
+
+/* Button Text */
+
+.button, input[type="submit"]  {
+    font-family: 'Kanit', sans-serif;
+    font-size:1em;
+    font-weight:bold;
+    color:#111;
+    border-radius: 10px;
+}
+
+
+/* Button Color */
+
+.button, input[type="submit"] {
+    border-color:#111;
+}
+
+
+/* Button Hover Color */
+
+.button:hover,  input[type="submit"]:hover {
+    border-color:#a8b729;
+    color:#a8b729;
+}
+
+
+/* ----------Banner Buttons---------- */
+
+
+/* Button Text */
+
+#banner .button {
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.1em;
+    color: #111;
+    margin-left: 20px;
+
+}
+
+
+/* Button Color */
+
+#banner .button {
+    border-color:#111;
+    border-radius: 10px;
+}
+
+
+/* Button Hover Color */
+
+#banner .button:hover {
+    color:#a8b729;
+    border-color:#a8b729;
+}
+
+
+/*------------------------------------------------------------------------------------------*/
+/* 7. Footer */
+/*------------------------------------------------------------------------------------------*/
+
+#landing-footer, #landing-footer p, #landing-footer a {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size:12px;
+    font-weight:normal;
+    color:#999;
+}
+
+/* Footer Icon Color */
+
+#landing-footer i {
+    color:#999;
+}
+
+.action-button1:hover
+{
+    transform: translate(0px,5px);
+    -webkit-transform: translate(0px,5px);
+    border-bottom: 1px solid;
+}
+.action-button:active
+{
+	transform: translate(0px,5px);
+  	-webkit-transform: translate(0px,5px);
+	border-bottom: 1px solid;
+}
+
+.action-button:hover
+{
+    transform: translate(0px,5px);
+    -webkit-transform: translate(0px,5px);
+    border-bottom: 1px solid;
+}
+
+.green1
+{
+	background-color: #82BF56;
+	border-bottom: 5px solid #669644;
+	text-shadow: 0px -2px #669644;
+    margin-left: 40%;
+    padding: 7px;
+    font-size: 18px;
+}
+
+.green2
+{
+	background-color: #82BF56;
+	border-bottom: 5px solid #669644;
+	text-shadow: 0px -2px #669644;
+    margin-left: 35%;
+    padding: 7px;
+    font-size: 18px;
+}
+
+.tab-head {
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.6em; 
+    font-weight:700;
+    color:white;
+    margin-left: 0px;
+    background-color: #a8b729;
+    text-align: center;
+    padding: 40px;
+}
+
+.icon1 i {
+    color:#a8b729;
+    padding-bottom: 15px;
+    margin-left: 42%;
+}
+
+}
